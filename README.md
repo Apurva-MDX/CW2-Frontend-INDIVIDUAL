@@ -8,4 +8,7 @@ Frontend:  https://github.com/Apurva-MDX/CW2-Frontend-INDIVIDUAL.git
 Backend:   https://github.com/Apurva-MDX/CW2-Individual.git
 
 
-Heruko:    https://cst3145-apurva.herokuapp.com/collection/lessons
+Heruko:    https://cst3145-apurva.herokuapp.com
+
+
+Github pages:  https://apurva-mdx.github.io/CW2-Frontend-INDIVIDUAL/
