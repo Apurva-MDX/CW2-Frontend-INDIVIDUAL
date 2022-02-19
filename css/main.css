@@ -1,25 +1,25 @@
 .nav_view{
-    background-color:#c7cdff;
+    background-color:#098123;
 }
 .nav_view h3{
-    color:#2aac6f;
+    color:#ffffff;
 }
 
 input[type=text]:focus {
-    background-color:#a1a2c9;
-    border: 3px solid #9594c1 !important;
+    background-color:#000000;
+    border: 3px solid #045021 !important;
     text-decoration: none !important;
     outline-width: 0;
 }
 .search_form{
-    color: #023517 ;
+    color: #3b3d3c ;
     width: 100%;
     padding: 15px 20px;
     box-sizing: border-box;
     border-radius: 15px;
-    background-color:#f4f7ff;
+    background-color:#d1d1d1;
     text-align: center;
-    border: 3px solid rgb(3, 88, 28);
+    border: 3px solid rgb(0, 0, 0);
     align-content: center;
     position: relative ;
     left: 50%;
