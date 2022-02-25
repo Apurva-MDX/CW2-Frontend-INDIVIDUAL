@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!--CSS-->
     <link rel="stylesheet"  type="text/css" href="css/main.css">
+    <script src="lessons.js"></script>
+
     <!--FONTAWESOME-->
     <script src="https://kit.fontawesome.com/7080cd0a09.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7080cd0a09.js" crossorigin="anonymous"></script>
@@ -111,6 +113,7 @@
                 <h5 class="card-title" >Title : {{fetchLesson(lesson.lessonID).title}}</h5>
                 <p class="card-text" > Location : {{fetchLesson(lesson.lessonID).location}} </p>
                 <p> <b>Price : ${{fetchLesson(lesson.lessonID).price}}</b></p>
+                <h6>Quantity: {{lesson.availablespace}}</h6>
                 <button style="float: right; background-color: black; color: white" href="#" class="btn btn-primary" v-on:click ='deleteFromCart(index)' >Remove from Cart</button>
                 
                     <br>
