@@ -177,16 +177,11 @@
                 },
 
 
-            // Filtering through lessons object to give out search
-             searchLessons: function(){
-                fetch("https://cst3145-apurva.herokuapp.com/collection/lesson" + this.term).then(
-                        function (response) {
-                            response.json().then(
-                                function (data) {
-                                    vm.lessons = data;
-                                    console.log(vm.lessons);
-                                });
-                        })
+
+             // Filtering through lessons object to give out search
+            searchLessons: function(){
+            this.lessons = lessonsArray;
+            this.lessons = this.lessons.filter(data => data.title.toLowerCase().includes(this.term) == true || data.location.toLowerCase().includes(this.term));
              },
                 //delete subject from shopping cart
                 deleteFromCart: function(index) {
