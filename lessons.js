@@ -1,4 +1,4 @@
-let lessons = [
+let lessonsArray = [
 
 {
     id: 1,
