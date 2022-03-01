@@ -35,7 +35,7 @@ let lessonsArray = [
        
         id: 4,
         title: "English",
-        location: "Ilford",
+        location: "Conentry",
         price: 95,
         availablespace: 35,
         image: "image/English.png",
@@ -55,7 +55,7 @@ let lessonsArray = [
        
         id: 6,
         title: "Music",
-        location: "Germany",
+        location: "Germuny",
         price: 475,
         availablespace: 12,
         image: "image/Musics.png",
@@ -75,7 +75,7 @@ let lessonsArray = [
        
         id: 8,
         title: "History",
-        location: "Arsenal",
+        location: "Ilford",
         price: 40,
         availablespace: 10,
         image: "image/History.png",
@@ -85,7 +85,7 @@ let lessonsArray = [
        
         id: 9,
         title: "Geography",
-        location: "Germany",
+        location: "georgia",
         price: 599,
         availablespace: 12,
         image: "image/Geography.png",
