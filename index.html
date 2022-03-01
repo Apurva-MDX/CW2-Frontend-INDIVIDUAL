@@ -33,7 +33,7 @@
     <!--search bar html-->
     <div class="col-md-6">
         <form>
-            <input class="search_form form-control"  type="text" v-model="term" v-on:keyup="searchLessons" placeholder="Search..." >
+            <input class="search_form form-control"  type="text" v-model="search" v-on:keyup="searchLessons" placeholder="Search..." >
            </form>
       </div>
       </header>
@@ -145,7 +145,7 @@
                 showProd: true,
                 sitename: 'AFTER SCHOOL CLASSES',
                 sitename2: 'Shopping Cart',
-                term:'',
+                search:'',
                 sort: {
                     sortingMethod: "price",
                     sortingOrder: "ascending",
@@ -178,7 +178,7 @@
 
 
 
-              // Filtering through lessons object to give out search
+             // Filtering through lessons object to give out search
 searchLessons: function(){
                 fetch("https://cst3145-apurva.herokuapp.com/collection/lesson/" + this.search).then(
                         function (response) {
@@ -359,6 +359,7 @@ searchLessons: function(){
                             });
                     })
 },
+
         })
 
     </script>
